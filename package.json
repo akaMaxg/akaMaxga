@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "add-domain": "echo \"comerit.se\" > build/CNAME",
+    "deploy": "gh-pages -d dist", 
     "build": "vue-cli-service build"
   },
   "dependencies": {
