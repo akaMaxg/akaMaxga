@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkcomerit"]=self["webpackChunkcomerit"]||[]).push([[594],{603:function(n,t,u){u.r(t),u.d(t,{default:function(){return l}});var e=u(6768);const r={class:"about"},a=(0,e.Lk)("h1",null,"This is an about page",-1),c=[a];function s(n,t){return(0,e.uX)(),(0,e.CE)("div",r,c)}var i=u(1241);const o={},f=(0,i.A)(o,[["render",s]]);var l=f}}]);
-//# sourceMappingURL=about.86405cca.js.map
