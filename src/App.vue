@@ -1,27 +1,40 @@
 <template>
   <v-app>
-    <v-app-bar app>
-  <HeaderComponent/>
-</v-app-bar>
     <v-main>
-      <v-container style="width: 80%;">
-        <router-view />
-    </v-container>
-    </v-main>
+        <StartView/>
+        <WelcomeView/>
+        <ServicesView/>
+        <WhyComeritView/>
+        <QuoteView/>
+        <FounderView/>
+        <ParallaxView/>
+        </v-main>
     <FooterComponent/>
   </v-app>
 </template>
 
 <script>
 import FooterComponent from './components/FooterComponent.vue';
-import HeaderComponent from './components/HeaderComponent.vue';
+import WelcomeView from './views/WelcomeView.vue';
+import StartView from './views/StartView.vue';
+import QuoteView from './views/QuoteView.vue';
+import ServicesView from './views/ServicesView.vue';
+import ParallaxView from './views/ParallaxView.vue';
+import FounderView from './views/FounderView.vue';
+import WhyComeritView from './views/WhyComeritView.vue';
 
 export default {
   name: 'App',
 
   components: {
     FooterComponent,
-    HeaderComponent,
+    WelcomeView,
+    StartView,
+    ServicesView,
+    QuoteView,
+    ParallaxView,
+    FounderView,
+    WhyComeritView
   },
 
   data: () => ({
